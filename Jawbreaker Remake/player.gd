@@ -1,11 +1,6 @@
 
 extends KinematicBody2D
 
-# This is a simple collision demo showing how
-# the kinematic cotroller works.
-# move() will allow to move the node, and will
-# always move it to a non-colliding spot, 
-# as long as it starts from a non-colliding spot too.
 
 
 #pixels / second
@@ -29,7 +24,6 @@ func _fixed_process(delta):
 	
 
 func _ready():
-	# Initalization here
 	set_fixed_process(true)
 	pass
 

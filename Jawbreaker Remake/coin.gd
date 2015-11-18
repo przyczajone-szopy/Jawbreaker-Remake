@@ -1,10 +1,6 @@
 
 extends Area2D
 
-# member variables here, example:
-# var a=2
-# var b="textvar"
-
 var taken=false
 
 
@@ -15,6 +11,5 @@ func _on_body_enter( body ):
 
 
 func _ready():
-	# Initalization here
 	pass
 
