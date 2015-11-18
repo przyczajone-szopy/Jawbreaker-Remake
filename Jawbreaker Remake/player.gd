@@ -9,7 +9,7 @@ extends KinematicBody2D
 
 
 #pixels / second
-const MOTION_SPEED=200
+const MOTION_SPEED=300
 
 func _fixed_process(delta):
 
