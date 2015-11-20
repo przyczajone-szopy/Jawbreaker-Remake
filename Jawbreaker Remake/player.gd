@@ -20,11 +20,11 @@ func _fixed_process(delta):
 		motion+=Vector2(1,0)
 	
 	motion = motion.normalized() * MOTION_SPEED * delta
-	move(motion)
+	self.move(motion)
 	
 
 func _ready():
-	set_fixed_process(true)
+	self.set_fixed_process(true)
 	pass
 
 
